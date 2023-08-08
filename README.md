@@ -1,13 +1,15 @@
-# Requisitos Funcionais(RF)
-[x] - O usuário deve poder criar uma transação;
-[x] - O usuário deve poder obter um extrato da sua transação;
-[x] - O usuário deve poder listar todas transações que já ocorreram;
-[x] - O usuário deve poder visualizar uma transação única;
+# Functional Requirements
+[x] - The user should be able to create a transaction;
 
-# Regras de Negócios(RN)
-[x] - A transação pode do tipo crédito que somará ao valor total, ou débito que será subtraído;
-[x] - Deve ser possível identificar o usuário entre as requisições;
-[x] - O usuário só pode visualizar transações que ele criou;
+[x] - The user should be able to get a statement;
 
-# Regras Não Funcionais(RNF)
-[ ] - Será criado ao longo da aplicação;
+[x] - The user should be able to list all transactions;
+
+[x] - The user should be able to view a specific transaction;
+
+# Business Requirements
+[x] - The transaction can be a credit that adds to the total amount, or a debit that will be subtracted;
+
+[x] - It should be possible to identify the user among the requests;
+
+[x] - The user can only view transactions he created;
